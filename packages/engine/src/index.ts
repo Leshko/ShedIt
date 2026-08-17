@@ -1,0 +1,16 @@
+export { computePlan, ENGINE_VERSION } from './computePlan.js';
+export { deriveRoof, heightAt, EPS } from './geometry/roof.js';
+export { buildWall, wallAxis, studCenters, headerSizeFor } from './geometry/wall.js';
+export { rafterGeometry, buildRoof } from './geometry/rafter.js';
+export { buildFloor } from './geometry/floor.js';
+export { buildCutList } from './takeoff/cutlist.js';
+export { buildPanels } from './takeoff/panels.js';
+export { buildBom, totalCost } from './takeoff/bom.js';
+export { packLinear } from './optimize/linear.js';
+export { nestSheets } from './optimize/sheets.js';
+export { buildDrawings } from './drawing/index.js';
+export { renderDrawingToSvg } from './drawing/svg.js';
+export type { SvgOptions, SvgResult } from './drawing/svg.js';
+export { toSolids } from './model3d.js';
+export type { Solid } from './model3d.js';
+export { toCsv } from './export/csv.js';
