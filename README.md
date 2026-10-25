@@ -1,5 +1,8 @@
 # ShedIt
 
+> Also in this repo: [`vacay/`](vacay/README.md), a social family-vacation planner
+> (NestJS + Angular). It is self-contained and runs on its own.
+
 A parametric shed planner. Set the footprint and a height for **each wall**, and it
 derives the roof, frames the whole building stud by stud, and exports plans you can take
 to the lumber yard and the job site.
